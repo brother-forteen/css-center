@@ -1,0 +1,118 @@
+.title{
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  line-height: 30px;
+}
+
+.content_box_line_height{
+  width: 100%;
+  height: 200px;
+  box-sizing: border-box;
+  background: aquamarine;
+  text-align: center;
+  line-height: 200px;
+}
+
+.item_line_height{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: cornflowerblue;
+}
+
+.content_box_padding{
+  width: 100%;
+  height: 200px;
+  box-sizing: border-box;
+  background: aquamarine;
+  text-align: center;
+  line-height: 200px;
+  padding: 20px;
+}
+.item_padding{
+  width: 50px;
+  height: 100%;
+  background: cornflowerblue;
+  display: inline-block;
+}
+
+.content_absolute{
+  width: 100%;
+  height: 200px;
+  box-sizing: border-box;
+  background: aquamarine;
+  position: relative;
+}
+.item_absolute{
+  width: 50px;
+  height: 50px;
+  background: cornflowerblue;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -25px;
+  margin-top: -25px;
+}
+
+.content_transform{
+  width: 100%;
+  height: 200px;
+  box-sizing: border-box;
+  background: aquamarine;
+  position: relative;
+}
+.item_transform{
+  width: 50px;
+  height: 50px;
+  background: cornflowerblue;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.content_table{
+  width: 500px;
+  height: 200px;
+  text-align: center;
+  box-sizing: border-box;
+  background: aquamarine;
+  display: table-cell;
+  vertical-align: middle;
+}
+.item_table{
+  width: 50px;
+  height: 50px;
+  background: cornflowerblue;
+  margin: 0 auto;
+}
+
+.content_flex{
+  width: 100%;
+  height: 200px;
+  box-sizing: border-box;
+  background: aquamarine;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.item_flex{
+  width: 50px;
+  height: 50px;
+  background: cornflowerblue;
+}
+
+.content_float{
+  width: 100%;
+  height: 200px;
+  box-sizing: border-box;
+  background: aquamarine;
+}
+.item_float{
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin-left: -25px;
+  background: cornflowerblue;
+}
