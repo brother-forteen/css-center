@@ -5,22 +5,6 @@
   line-height: 30px;
 }
 
-.content_box_line_height{
-  width: 100%;
-  height: 200px;
-  box-sizing: border-box;
-  background: aquamarine;
-  text-align: center;
-  line-height: 200px;
-}
-
-.item_line_height{
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  background: cornflowerblue;
-}
-
 .content_box_padding{
   width: 100%;
   height: 200px;
@@ -53,6 +37,79 @@
   top: 50%;
   margin-left: -25px;
   margin-top: -25px;
+}
+
+.content_margin_auto{
+  width: 100%;
+  height: 200px;
+  box-sizing: border-box;
+  background: aquamarine;
+  position: relative;
+}
+.item_margin_auto{
+  width: 50px;
+  height: 50px;
+  background: cornflowerblue;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.content_calc{
+  width: 100%;
+  height: 200px;
+  box-sizing: border-box;
+  background: aquamarine;
+  position: relative;
+}
+.item_calc{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background: cornflowerblue;
+  top: calc(50% - 25px);
+  left:calc(50% - 25px);
+}
+
+.content_writing{
+  width: 100%;
+  height: 200px;
+  box-sizing: border-box;
+  background: aquamarine;
+  writing-mode: vertical-lr;
+  text-align: center;
+}
+.item_writing{
+  width: 100%;
+  writing-mode: horizontal-tb;
+  display: inline-block;
+  text-align: center;
+}
+.box_writing {
+  width: 100px;
+  height: 100px;
+  background: cornflowerblue;
+  display: inline-block;
+  margin: auto;
+  text-align: left;
+}
+
+.content_box_line_height{
+  width: 100%;
+  height: 200px;
+  box-sizing: border-box;
+  background: aquamarine;
+  text-align: center;
+  line-height: 200px;
+}
+.item_line_height{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: cornflowerblue;
 }
 
 .content_transform{
@@ -103,16 +160,17 @@
   background: cornflowerblue;
 }
 
-.content_float{
+.content_grid{
   width: 100%;
   height: 200px;
   box-sizing: border-box;
   background: aquamarine;
+  display: grid;
 }
-.item_float{
-  width: 50px;
-  height: 50px;
-  float: left;
-  margin-left: -25px;
+.item_grid{
+  width: 100px;
+  height: 100px;
   background: cornflowerblue;
+  align-self: center;
+  justify-self: center;
 }
